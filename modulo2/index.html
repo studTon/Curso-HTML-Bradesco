@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Tabela</title>
+    </head>
+    <body><!-- cellspacing="20px" pode ser colocado em table -->
+        
+        <div>
+            <p>
+            Crie um ID e uma senha segundo o exemplo abaixo:
+            </p>
+            <table>
+            <tr>
+                <!-- colspan="2" valign="top" -->
+                <td >ID</td>
+                <td>Senha</td>
+            </tr>
+            <tr>
+                <!-- td rowspan="2" -->
+                <td>jose</td>
+                <td>00AAbb!@</td>
+            </tr>
+            </table>
+            <p>
+            Dois números, duas letras maiúsculas, duas letras minúsculas e dois caracteres especiais, independente de ordem.
+            </p>
+            <form>
+                <input name="usuario" size="15" maxlength="50" class="nomeId" value="usuário">
+                <input type="password" size="8" class="senhaUsuario" value="senha">
+                <input type="submit" class="enviar">
+                Manter conectado
+                <input type="checkbox" class="opcao">
+                Servidor:
+                <!-- 
+                <input type="radio" class="opcao">BR
+                <input type="radio" class="opcao">US
+                -->
+                <select>
+                    <!-- 
+                    Adicionar o atributo size na tag select define o tamanho da visualização das opções
+                    -->
+                    <option>BR</option>
+                    <option>US</option>
+                </select>
+                <textarea rows="2" cols="2"></textarea>
+                <input type="reset" value="Limpar">
+                <!-- <input type="hidden" value="var"> -->
+            </form>
+        </div>
+            
+    </body>
+</html>

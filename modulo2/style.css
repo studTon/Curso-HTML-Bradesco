@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*Body*/
+body
+{
+    width: 80%;
+    margin: auto;
+    padding: 20% 0;
+    font-family: sans-serif;
+}
+p{
+    margin: auto;
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px 0;
+}
+div{
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    align-content: center;
+    position: relative;
+    background-color: royalblue;
+    padding: 70px 0;
+    box-shadow: 7px 5px grey;
+    border-radius: 5px 15px;
+}
+table{
+    margin: auto;
+    border: 2px black;
+    background: black;
+    width: 15%;
+    height: 12%;
+    font-size: 18pt;
+    text-align: center;
+    padding: 1px;
+}
+td{
+    background-color: gold;
+}
+form{
+    display: grid;
+    align-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.enviar{
+    align-self: center;
+    margin: auto;
+}
+.opcao{
+    align-self: center;
+    margin: auto;
+}
+.nomeId{
+    align-self: center;
+    margin: auto;
+}
+.senhaUsuario{
+    align-self: center;
+    margin: auto;
+}
