@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Documentação de HTML -->
+    <meta name="author" content="studTon">
+    <meta name="copyright" content="Creative Commons CC0">
+    <meta name="keywords" content="Documentação HTML; Tabela HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="generator" content="Adobe Brackets"> -->
+    <!-- <meta name="robots" content=""> -->
+    
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+    <!-- <meta http-equiv="expires" content=""> -->
+    <!-- <meta http-equiv="refresh" content="5"> tempo em segundos-->
+    <!-- <meta http-equiv="set-cookie" content=""> -->
+    
+    <style>
+        body{
+            margin: auto;
+            width: auto;
+        }
+        form{
+            font-family: "Verdana";
+            width: 30%;
+            margin: 25px;
+            padding: 50px;
+            background-color: aquamarine;
+            border: solid 2px black;
+        }
+        table{
+            align-self: center;
+        }
+    </style>
+
+</head>
+<body>
+    <form name="Form1">
+        <h1>Formulário para cadastro</h1>
+        <table cellspacing="5">
+            <tr>
+                <td><label for="nome">Nome</label></td>
+                <td><input size="20" maxlength="50" id="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input size="20" maxlength="50" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="sexo">Sexo</label></td>
+                <td><label for="feminino">Feminino</label>
+                <input type="radio" id="feminino" name="sexo" value="feminino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino"></td>
+            </tr>
+            <tr>
+                <td><label for="rg">RG</label></td>
+                <td><input size="20" maxlength="50" id="rg"></td>
+            </tr>
+            <tr>
+                <td><label for="cpf">CPF</label></td>
+                <td><input size="20" maxlength="50" id="cpf"></td>
+            </tr>
+            <tr>
+                <td><label for="login">Login</label></td>
+                <td><input size="20" maxlength="50" id="login"></td>
+            </tr>
+            <tr>
+                <td><label for="senha">Senha</label></td>
+                <td><input type="password" size="20" maxlength="50" id="senha"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
